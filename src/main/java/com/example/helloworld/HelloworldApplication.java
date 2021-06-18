@@ -50,7 +50,7 @@ public class HelloworldApplication {
                 System.out.println(customer);
             }
 
-            return "Hello " + name + "!" + " find in mongo: " + repository.findByFirstName("Alice");
+            return "Hey " + name + "!" + " find in mongo: " + repository.findByFirstName("Alice");
         }
     }
 }
