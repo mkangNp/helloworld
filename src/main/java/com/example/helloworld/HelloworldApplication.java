@@ -14,7 +14,7 @@ public class HelloworldApplication {
         SpringApplication.run(HelloworldApplication.class, args);
     }
 
-    @Value("${NAME:java}")
+    @Value("${NAME:go}")
     String name;
 
     @Autowired
